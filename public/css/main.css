@@ -1,0 +1,52 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+  }
+.body_section{
+    padding : 3% 5% 1%;
+}
+
+p{
+  font-size: 18px;
+}
+
+  a{
+    text-decoration: none;
+  }
+
+  @font-face{
+    font-family: "Lovely Home";
+    src:local('Lovely Home'), 
+    url("../img/LovelyHome-9aBZ.ttf") format('truetype');
+
+  }
+
+.brand-name ,.navbar-light .navbar-brand{
+      /* font-family: "Brush Script MT"; */
+      /* margin-bottom: 3px; */
+      font-family: "Lovely Home";
+      font-size: 50px;
+      font-weight: bold;
+      color: #351458;
+}
+
+.headerachor{
+    color: black;
+    margin: 0 7px 0 7px;
+    font-size: 25px;
+}
+
+.headerachor:hover{
+    background-color: #f1f1f1;
+}
+
+
+
+
+
+
+footer{
+    padding-top: 2%;
+    color: #868e96;
+    text-align: center;
+  }
